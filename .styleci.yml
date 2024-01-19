@@ -1,0 +1,12 @@
+preset: psr1
+
+risky: false
+
+finder:
+  exclude:
+    - "tests"
+  name:
+    - "*.php"
+  not-name:
+    - index.php
+    - server.php
